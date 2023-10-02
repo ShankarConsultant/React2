@@ -1,0 +1,22 @@
+.header-cls{
+  padding-top: 10px;
+  padding-left:10px;
+  height: 60px;
+  background-color: #1a021d;    
+}
+
+.header-cls > div{
+  color: #fff;
+}
+
+.header-cls > p{
+  color: #a5afd7;
+  font-weight: 500;
+}
+
+.container{
+  max-width: 25rem;
+  margin:0 auto;
+  text-align: left;
+  padding: 0 15%;
+}

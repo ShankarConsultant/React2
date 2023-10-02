@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.mlml{
+  padding: 50px;
+}
+
+input, button {
+  height: 25px;
+  width:60%;
+  border-radius: 5px;
+
+}
+
+button{
+  font-size:20px;
+  height: 40px;
+  width:30%;
+  background-color: #996122;
+  border-color: #996122;
+}
+
+.rightSubHeading{
+  display:inline-block;
+  width:80%;
+  padding-left:10px
+ }
+
+ .leftSubHeading{
+   display:inline-block;
+   width:12%;
+   font-weight:bold;
+   text-shadow:1px 2px aqua;
+}
+
+.leftSubHeading span{
+  border:1px solid #ede; 
+  border-radius:15px; 
+  padding: 10px 20px;
+  line-height:30px; 
+  text-align:center; 
+}
+
+.logOut{
+  display:inline-block;
+  width:2%;
+  padding: 3px;
+  margin-left:3%;
+  color:#fff;
+  font-weight: bold;
+  text-align: center;
+  background:red;
+  border-radius:50%;
+  
+}
+
+.imgSrc{
+  height:150px;
+  width: 220px;
+}
+
+.txtCenter{
+  text-align: center;
+  line-height: 40px;
+}
+
+.addCartBtn{
+  background:#434555;
+  border-radius:6px;
+  color:#fff;
+  margin: 10px 45px;
+  cursor: pointer;
+}
+
+.boxRightSpace{
+  margin-right:55px;
+  margin-left: 20px;
+}
+
+.cart-container{
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  border-top:1px solid #888222;
+  padding-top:30px;
+}
+
+.loginContainer{
+  background:#129488;
+  margin:50px 260px;
+  width:25%;
+  padding:30px;
+  text-align:center;
+}
+
+.cartItemAddMinus{
+  width:3%; 
+  display:inline-block; 
+  margin:0 3%; 
+  cursor:pointer; 
+  text-align:center; 
+  font-size:25px;
+  color:#fff;
+  background:#000;
+}
+
+.showCartDiv{
+  border-radius: 5px;
+  background: #ede444;
+  margin: 0 30px;
+  padding: 10px
+}
+
+.inlineBlock{
+  display: inline-block;
+}
+
+@media (max-width: 800px) {
+  .mlml{
+    padding: 10px;
+  }
+
+  .rightSubHeading{
+    width:40%;
+   }
+
+   .leftSubHeading{
+    width:35%;
+   }
+
+  .leftSubHeading span{
+    padding: 5px 10px;
+  }
+
+  .cart-container {
+    flex-direction: column;
+  }
+
+  .addCartBtn {
+    margin: 4% 35%;
+    width: 30%;
+  }
+
+  .logOut {
+    width: 4%;
+    margin-left: 20px
+  }
+
+  .loginContainer{
+    margin:50px 45px;
+    width:55%;
+
+  }
+    
+}

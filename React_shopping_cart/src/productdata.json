@@ -1,0 +1,31 @@
+{
+    "listOfProducts":[
+            {
+                "id":1,
+                "prodImg":"mac.jpg",
+                "prodName":"Mac Book",
+                "prodPrice":150
+            },
+            
+            {
+                "id":2,
+                "prodImg":"acer.png",
+                "prodName": "Acer Aspire",
+                "prodPrice": 55
+            },
+            
+            {
+                "id":3,
+                "prodImg":"dell.jpg",
+                "prodName": "Dell",
+                "prodPrice": 40
+            },
+            
+            {
+                "id":4,
+                "prodImg":"hp.png",
+                "prodName":"HP Notepad",
+                "prodPrice": 60
+            }
+    ]
+}

@@ -1,0 +1,98 @@
+
+Practice :
+
+https://atomizedobjects.com/blog/react/how-to-use-usecontext-in-functional-components/#google_vignette
+
+https://dmitripavlutin.com/react-context-and-usecontext/
+
+
+https://dev.to/govindbisen/storing-multiple-values-in-one-state-177d
+
+https://dev.to/imevanc/react-props-vs-state-jn
+
+https://overreacted.io/a-complete-guide-to-useeffect/
+
+https://dev.to/hellonehha/what-is-side-effect-in-reactjs-and-how-to-handle-it-39j8
+
+https://stackoverflow.com/questions/75729705/what-is-difference-between-dom-and-virtual-dom
+
+
+https://dev.to/bandojay/creating-forms-in-react-3245
+
+https://raygun.com/blog/react-debugging-guide/
+
+https://www.freecodecamp.org/news/best-practices-for-security-of-your-react-js-application/
+
+https://dev.to/othmanadi/-centering-ui-components-a-fun-dive-into-reacts-flexibility-59ib
+
+https://legacy.reactjs.org/docs/optimizing-performance.html
+
+https://medium.com/@ghimiresamana666/authentication-and-authorization-in-react-8fc76a496ba0
+
+
+To do :
+*******
+
+https://dev.to/t/react
+
+
+https://react.dev/learn/describing-the-ui  + alllllll
+
+https://stackoverflow.com/questions/tagged/reactjs
+
+
+
+
+
+https://react-redux.js.org/introduction/why-use-react-redux
+
+=============
+
+https://www.freecodecamp.org/news/best-practices-for-security-of-your-react-js-application/
+
+https://snyk.io/blog/10-react-security-best-practices/
+
+==================
+
+
+==================
+
+There are multiple ways to share data between components. You can use one of the following options:
+
+If the component to which you want to pass the data is a child of SearchForm component, then you can pass it as a prop.
+
+If you are managing state via redux, you can connect components to the redux store and get the required data from the redux store in your components.
+
+You can also use React's Context API to share common data between components that may or may not have a parent-child relationship.
+
+If the component that needs the data from SearchForm component, is a parent component of SearchForm component, you can pass a callback function to the SearchForm component as a prop and when data is available in SearchForm component, call the callback function, received as a prop, and pass the data as an argument to that callback function.
+
+https://www.pluralsight.com/guides/how-to-use-react-context-to-share-data-between-components
+
+https://blog.logrocket.com/understanding-react-higher-order-components/#what-are-hocs
+
+https://blog.logrocket.com/react-context-api-deep-dive-examples/
+
+
+npm audit fix --force --production
+
+https://reactrouter.com/en/main/start/tutorial
+
+React version history:
+
+https://github.com/facebook/react/blob/main/CHANGELOG.md#1680-february-6-2019
+
+
+https://dev.to/shareef/how-to-work-with-arrays-in-reactjs-usestate-4cmi
+
+
+Since React 16.8 (Feb 2019),
+here we have some reasons why the community is supporting the Functional Components approach:
+
+Class Components requires more code but will also give you some benefits which you will see later on (the transpiled code by Babel will be larger too)
+
+A functional component is just a plain JavaScript function which accepts props as an argument and returns a React element.
+
+Functional component are much easier to read and test because they are plain JavaScript functions (less code).
+
+The React team mentioned that there may be a performance boost for functional component in future React version
